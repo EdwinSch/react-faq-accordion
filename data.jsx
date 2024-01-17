@@ -17,6 +17,12 @@ const faq = [
     answer:
       "Mustache farm-to-table helvetica schlitz lomo leggings, gochujang hot chicken migas. Meditation deep v locavore jianbing twee hashtag. Helvetica photo booth typewriter meh. Authentic wayfarers mixtape intelligentsia, small batch typewriter freegan fashion axe bespoke microdosing tbh celiac.",
   },
+  {
+    id: 4,
+    question: "Wayfarers stumptown la croix?",
+    answer:
+      "Irony bespoke hashtag, everyday carry banh mi put a bird on it wolf tote bag lo-fi. Gochujang blue bottle unicorn semiotics poke. Whatever edison bulb fam mlkshk wolf, banh mi deep v tbh normcore banjo, try-hard cred godard mixtape DSA artisan church-key.",
+  },
 ];
 
 export default faq;
