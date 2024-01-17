@@ -1,0 +1,44 @@
+/* Init */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Variables */
+:root {
+  --bgClr: #f8eeff;
+  --font: "Work Sans", sans-serif;
+  --headingClr: #301534;
+  --textClr: #8b6990;
+  --iconClr: #ad28eb;
+}
+
+/* --- MAIN CSS --- */
+
+body {
+  font-family: var(--font);
+  background-color: var(--bgClr);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* --- MOBILE RESPONSIVE --- */
+
+@media screen and (max-width: 450px) {
+  /* some class */
+}
