@@ -122,6 +122,10 @@ header {
       font-weight: 600;
       color: var(--headingClr);
 
+      &:focus {
+        color: red;
+      }
+
       @media screen and (max-width: 450px) {
         font-size: 1rem;
       }
@@ -129,6 +133,7 @@ header {
 
     .toggle-icon {
       font-size: 26px;
+      min-width: 30px;
     }
   }
 
