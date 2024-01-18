@@ -13,7 +13,7 @@ const faq = [
   },
   {
     id: 3,
-    question: "Lo-fi poke synth bodega boys subway tile?",
+    question: "Lo-fi poke synth bodega boys subway tile DSA?",
     answer:
       "Mustache farm-to-table helvetica schlitz lomo leggings, gochujang hot chicken migas. Meditation deep v locavore jianbing twee hashtag. Helvetica photo booth typewriter meh. Authentic wayfarers mixtape intelligentsia, small batch typewriter freegan fashion axe bespoke microdosing tbh celiac.",
   },

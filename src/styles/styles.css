@@ -87,6 +87,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* option */
+    gap: 20px;
+
+    &:hover > h2 {
+      transition: 250ms ease;
+      color: var(--iconClr);
+    }
 
     & h2 {
       font-size: 1.125rem;
