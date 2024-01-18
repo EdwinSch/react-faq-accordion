@@ -50,15 +50,23 @@ body {
   background-size: cover;
   background-position: center;
   z-index: -1;
+
+  @media screen and (max-width: 450px) {
+    background-image: url(../assets/background-pattern-mobile.svg);
+  }
 }
 
 main {
-  width: 80vw;
+  width: 90vw;
   max-width: 600px;
   background-color: white;
   padding: 40px;
   border-radius: 16px;
   box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+
+  @media screen and (max-width: 450px) {
+    padding: 24px;
+  }
 }
 
 /* --- HEADER COMPONENT --- */
@@ -74,6 +82,21 @@ header {
     font-weight: 700;
     color: var(--headingClr);
   }
+
+  .icon {
+    color: var(--iconClr);
+    font-size: 38px;
+  }
+
+  @media screen and (max-width: 450px) {
+    & h1 {
+      font-size: 2rem;
+    }
+
+    .icon {
+      font-size: 24px;
+    }
+  }
 }
 
 /* --- QUESTION COMPONENT --- */
@@ -87,7 +110,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* option */
     gap: 20px;
 
     &:hover > h2 {
@@ -99,6 +121,14 @@ header {
       font-size: 1.125rem;
       font-weight: 600;
       color: var(--headingClr);
+
+      @media screen and (max-width: 450px) {
+        font-size: 1rem;
+      }
+    }
+
+    .toggle-icon {
+      font-size: 26px;
     }
   }
 
@@ -108,15 +138,13 @@ header {
     font-weight: 400;
     line-height: 150%;
     color: var(--textClr);
+
+    @media screen and (max-width: 450px) {
+      font-size: 0.875rem;
+    }
   }
 
   &:last-child {
     border-bottom: none;
   }
-}
-
-/* --- MOBILE RESPONSIVE --- */
-
-@media screen and (max-width: 450px) {
-  /* some class */
 }

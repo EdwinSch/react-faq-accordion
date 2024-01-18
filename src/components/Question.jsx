@@ -10,9 +10,15 @@ const Question = ({ question, answer }) => {
         <h2>{question}</h2>
         {/* Set toggle icon on click */}
         {toggle ? (
-          <AiFillMinusCircle style={{ color: "#301534", fontSize: 26 }} />
+          <AiFillMinusCircle
+            className="toggle-icon"
+            style={{ color: "#301534" }}
+          />
         ) : (
-          <AiFillPlusCircle style={{ color: "#ad28eb", fontSize: 26 }} />
+          <AiFillPlusCircle
+            className="toggle-icon"
+            style={{ color: "#ad28eb" }}
+          />
         )}
       </div>
       {/* Show/hide answer on toggle state */}
