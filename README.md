@@ -4,7 +4,7 @@ A small React FAQ page with toggling accordion cards.
 
 ### Live Demo
 
-🚀 [Deployed App](https://)
+🚀 [Deployed App](https://main--scintillating-starship-74f7ed.netlify.app/)
 
 #### 🛠️ Build with
 
