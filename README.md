@@ -1,6 +1,6 @@
-## Main header (prj title)
+## React FAQ Accordion
 
-Project description
+A small React FAQ page with toggling accordion cards.
 
 ### Live Demo
 
@@ -9,6 +9,9 @@ Project description
 #### 🛠️ Build with
 
 - React
+- CSS
+- Vite
+- (NPM) React Icons
 
 #### 💻 Run this project
 
